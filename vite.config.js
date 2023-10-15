@@ -14,7 +14,8 @@ export default defineConfig({
   },
   build: {
     publicPath: '/profile/',
-    outDir: './docs',
+    outDir: 'docs',
     assetsDir: './',
+  // publicPath: './',
   }
 })
