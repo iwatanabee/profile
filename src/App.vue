@@ -32,7 +32,7 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 nav a.router-link-exact-active {
