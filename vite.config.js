@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   build: {
-    publicPath: './',
+    publicPath: '/profile/',
     outDir: './docs',
     assetsDir: './',
   }
