@@ -1,0 +1,1 @@
+.product{min-height:100vh;display:flex;justify-content:space-between;flex-wrap:wrap;padding-left:10%;padding-right:10%}.product div{width:49%;min-width:21rem;margin:3px;background:#FFF}.product div:hover{transition:.5s;transform:translateY(-10px);box-shadow:0 0 10px #0003}.product p{text-align:left;padding:10px}img{max-width:100%}
