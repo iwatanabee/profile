@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/profile/home">Home</RouterLink>
+        <RouterLink to="/profile/">Home</RouterLink>
         <RouterLink to="/profile/product">product</RouterLink>
         <RouterLink to="/profile/skill">Skill</RouterLink>
       </nav>
