@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   build: {
-    publicDir: process.env.NODE_ENV === "production" ? "/profile/" : "",
+    publicDir: "/profile/",
     outDir: 'docs',
   },
   base: './',
