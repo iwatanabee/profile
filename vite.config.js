@@ -13,9 +13,8 @@ export default defineConfig({
     },
   },
   build: {
-    publicPath: '/profile/',
+    publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
     outDir: 'docs',
     assetsDir: './',
-  // publicPath: './',
   }
 })
