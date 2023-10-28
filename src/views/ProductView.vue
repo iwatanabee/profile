@@ -1,12 +1,15 @@
 <template>
   <h1>制作物</h1>
   <div class="product">
-    <div class="program">
-      <img src="../assets/restaurant-finder-app/index.png" alt="プログラムの写真">
-      <p>
-        大学の授業で作成したホットペッパーAPIを使用したcgiプログラム
-      </p>
-    </div>
+      <div class="program">
+      <RouterLink to="/profile/product/restaurant-finder-app">
+        <img src="../assets/restaurant-finder-app/index.png" alt="プログラムの写真">
+        <p>
+          <RouterLink to="/profile/product/restaurant-finder-app"></RouterLink>
+          大学の授業で作成したホットペッパーAPIを使用したcgiプログラム
+        </p>
+      </RouterLink>
+      </div>
     <div class="program">
       <img src="../assets/restaurant-finder-app/index.png" alt="プログラムの写真">
       <p>
@@ -25,7 +28,7 @@
 <style>
 
 .product {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -52,6 +55,6 @@
 }
 
 img{
-  max-width: 100%;
+  width: 100%;
 }
 </style>

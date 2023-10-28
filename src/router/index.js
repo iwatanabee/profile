@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/profile/skill',
       name: 'skill',
       component: () => import('../views/SkillView.vue')
+    },
+    {
+      path: '/profile/product/restaurant-finder-app',
+      name: 'restaurant-finder-app',
+      component: () => import('../views/RestaurantFinderAppView.vue')
     }
   ]
 })

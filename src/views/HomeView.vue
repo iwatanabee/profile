@@ -12,7 +12,6 @@ import TheWelcome from '../components/TheWelcome.vue'
     👨‍💻 I want to be an Engineer in the future.<br>
     🧪 The research topic : Image Recognition<br>
   </p>
-  <!-- <button onclick="window.open('https://github.com/iwatanabee')">Github</button>
-  <button>ブログ</button> -->
+  <button onclick="window.open('https://github.com/iwatanabee')">Github</button>
 
 </template>
